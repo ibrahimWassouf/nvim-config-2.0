@@ -7,3 +7,5 @@ vim.o.syntax = "on"
 vim.g.mapleader = " "
 
 vim.keymap.set("n", "<leader>e", ":Neotree toggle<cr>")
+vim.keymap.set("n", "<C-h>", "<C-w>h")
+vim.keymap.set("n", "<C-l>", "<C-w>l")
