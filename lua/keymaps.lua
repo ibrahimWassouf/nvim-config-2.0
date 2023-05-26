@@ -9,3 +9,5 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>e", ":Neotree toggle<cr>")
 vim.keymap.set("n", "<C-h>", ":wincmd h<CR>")
 vim.keymap.set("n", "<C-l>", ":wincmd l<CR>")
+vim.keymap.set("n", "<leader>sh", ":wincmd s<CR>")
+vim.keymap.set("n", "<leader>sv", ":wincmd v<CR>")
