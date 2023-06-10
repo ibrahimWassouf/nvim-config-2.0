@@ -5,7 +5,7 @@ vim.o.shiftwidth = 2
 vim.o.syntax = "on"
 vim.o.expandtab = true
 vim.o.linebreak = true
-vim.o.textwidth = 80
+vim.o.textwidth = 72
 vim.o.wrap = false
 
 vim.g.mapleader = " "
