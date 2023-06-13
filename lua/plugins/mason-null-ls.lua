@@ -7,6 +7,5 @@ return {
 	},
 	config = function()
 		require("mason-null-ls").setup({}) -- require your null-ls config here (example below)
-		require("null-ls").setup()
 	end,
 }

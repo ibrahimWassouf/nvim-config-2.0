@@ -6,8 +6,6 @@ return {
 	config = function()
 		local null_ls = require("null-ls")
 		--local group = vim.api.nvim_create_augroup("lsp_format_on_save", { clear = false })
-		local event = "BufWritePre"
-		local async = event == "BufWritePost"
 		local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 		--setup from MunifTanjim/prettier.nvim.git
 		null_ls.setup({
