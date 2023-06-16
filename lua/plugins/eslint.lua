@@ -2,12 +2,12 @@ return {
 	"MunifTanjim/eslint.nvim",
 	config = function()
 		require("eslint").setup({
-			bin = 'eslint',
+			bin = "eslint_d",
 			code_actions = {
 				enable = true,
 				apply_on_save = {
 					enable = true,
-					types = {"directive", "problem", "suggestion", "layout"},
+					types = { "directive", "problem", "suggestion", "layout" },
 				},
 				disable_rule_comment = {
 					enable = true,
