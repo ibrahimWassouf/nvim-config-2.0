@@ -1,5 +1,4 @@
 return {
-	--mason setup
 	{
 		"williamboman/mason.nvim",
 		build = ":MasonUpdate",
@@ -10,19 +9,19 @@ return {
 			require("mason").setup()
 		end,
 	},
-	--mason-lspconfig setup
 	{
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup()
 		end,
 	},
-	--lsp-config setup
 	{
 		"neovim/nvim-lspconfig",
 		config = function()
 			local lspconfig = require("lspconfig")
 			lspconfig.tsserver.setup({})
+      lspconfig.lua_ls.setup({})
+      lspconfig.hls.setup({})
 		end,
 	},
   {
@@ -37,5 +36,5 @@ return {
 		  require("lspsaga").setup({})
 	  end,
 
-    },
+  },
 }
