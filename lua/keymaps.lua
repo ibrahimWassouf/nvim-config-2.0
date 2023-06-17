@@ -22,4 +22,7 @@ vim.keymap.set("n", "gh", "<cmd>Lspsaga lsp_finder<CR>")
 vim.keymap.set("n", "ld", "<cmd>Lspsaga show_line_diagnostics<CR>")
 vim.keymap.set("n", "<leader>K", ":Lspsaga hover_doc<CR>")
 
+vim.keymap.set("n", "<leader>vd", "<cmd>vim.diagnostic.open_float<cr>")
 
+--trouble keymaps
+vim.keymap.set("n", "<leader>xx", "<cmd>silent! TroubleToggle<cr>", { silent = true, noremap = true })
