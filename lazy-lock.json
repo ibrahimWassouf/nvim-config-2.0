@@ -1,6 +1,7 @@
 {
   "eslint.nvim": { "branch": "main", "commit": "158f2289907d377018752fcfe0d61b746dc11767" },
   "gitsigns.nvim": { "branch": "main", "commit": "256569c2fe697a3003dbd49ff474e5935af9066c" },
+  "haskell-tools.nvim": { "branch": "1.x.x", "commit": "7154357bc5213656a6af134e2babec1c364aa5e6" },
   "kanagawa": { "branch": "master", "commit": "14a7524a8b259296713d4d77ef3c7f4dec501269" },
   "lazy.nvim": { "branch": "main", "commit": "10d4371745f88837c78c8daab00c5be6e48abea4" },
   "lspsaga.nvim": { "branch": "main", "commit": "4f075452c466df263e69ae142f6659dcf9324bf6" },
@@ -11,7 +12,8 @@
   "nui.nvim": { "branch": "main", "commit": "e319f2554d14a521f4271576ebff2685105d7628" },
   "null-ls.nvim": { "branch": "main", "commit": "bbaf5a96913aa92281f154b08732be2f57021c45" },
   "nvim-autopairs": { "branch": "master", "commit": "41803bdbf75569571f93fd4571f6c654635b1b46" },
-  "nvim-lspconfig": { "branch": "master", "commit": "295c646488d5baa63c6c4da68fe61171b9257375" },
+  "nvim-hs.vim": { "branch": "develop", "commit": "d4a6b7278ae6a1fdc64e300c3ebc1e24719af342" },
+  "nvim-lspconfig": { "branch": "master", "commit": "80861dc087982a6ed8ba91ec4836adce619f5a8a" },
   "nvim-treesitter": { "branch": "master", "commit": "1b9f704eb8664508749a1164d4086e47f9afa77f" },
   "nvim-web-devicons": { "branch": "master", "commit": "2a125024a137677930efcfdf720f205504c97268" },
   "plenary.nvim": { "branch": "master", "commit": "36aaceb6e93addd20b1b18f94d86aecc552f30c4" },
