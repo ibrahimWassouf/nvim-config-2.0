@@ -17,7 +17,7 @@ vim.keymap.set("n", "<C-l>", ":wincmd l<CR>")
 vim.keymap.set("n", "<leader>sh", ":wincmd s<CR>")
 vim.keymap.set("n", "<leader>sv", ":wincmd v<CR>")
 -- format current paragraph without moving cursor
-vim.keymap.set("n", "<leader>gw", "gwvip")
+vim.keymap.set("n", "<leader>gw", "gwvipvipgw")
 
 --lsp-saga
 vim.keymap.set("n", "gp", "<cmd>Lspsaga peek_definition<CR>")
