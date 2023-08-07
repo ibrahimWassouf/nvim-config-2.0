@@ -28,7 +28,6 @@ return {
 			--sources I put myself may be unneeded
 			sources = {
 				null_ls.builtins.formatting.stylua,
-				null_ls.builtins.formatting.prettier,
 				null_ls.builtins.diagnostics.eslint_d,
 			},
 		})
