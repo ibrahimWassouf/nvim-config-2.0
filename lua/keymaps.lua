@@ -14,10 +14,13 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>e", ":Neotree toggle<cr>")
 vim.keymap.set("n", "<C-h>", ":wincmd h<CR>")
 vim.keymap.set("n", "<C-l>", ":wincmd l<CR>")
+vim.keymap.set("n", "<C-j>", ":wincmd j<CR>")
+vim.keymap.set("n", "<C-k>", ":wincmd k<CR>")
 vim.keymap.set("n", "<leader>sh", ":wincmd s<CR>")
 vim.keymap.set("n", "<leader>sv", ":wincmd v<CR>")
 -- format current paragraph without moving cursor
 vim.keymap.set("n", "<leader>gw", "gwvipvipgw")
+vim.keymap.set("n", "<leader>fs", ":silent %!prettier --stdin-filepath %w<CR>")
 
 --lsp-saga
 vim.keymap.set("n", "gp", "<cmd>Lspsaga peek_definition<CR>")
