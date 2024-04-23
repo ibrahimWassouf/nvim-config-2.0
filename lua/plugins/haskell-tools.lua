@@ -5,4 +5,5 @@ return {
 		"nvim-telescope/telescope.nvim",
 	},
 	branch = "1.x.x",
+	ft = "haskell",
 }

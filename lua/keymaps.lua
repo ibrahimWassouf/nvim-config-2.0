@@ -35,3 +35,15 @@ vim.keymap.set("n", "<leader>vd", "<cmd>vim.diagnostic.open_float<cr>")
 vim.keymap.set("n", "<leader>bd", "<cmd>Lspsaga show_buf_diagnostics<CR>")
 --trouble keymaps
 vim.keymap.set("n", "<leader>xx", "<cmd>silent! TroubleToggle<cr>", { silent = true, noremap = true })
+
+--luasnip
+local ls = require("plugins/luasnip")
+vim.keymap.set({ "i" }, "<C-K>", function()
+  ls.expand()
+end, { silent = true })
+vim.keymap.set({ "i", "s" }, "<C-L>", function()
+  ls.jump(1)
+end, { silent = true })
+vim.keymap.set({ "i", "s" }, "<C-J>", function()
+  ls.jump(-1)
+end, { silent = true })

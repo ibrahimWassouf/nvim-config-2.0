@@ -24,7 +24,6 @@ return {
 		"neovim/nvim-lspconfig",
 		config = function()
 			local lspconfig = require("lspconfig")
-			--lspconfig.rome.setup({})
 			lspconfig.tsserver.setup({})
 			lspconfig.lua_ls.setup({})
 			lspconfig.hls.setup({})
@@ -35,6 +34,7 @@ return {
 					},
 				},
 			})
+			lspconfig.jdtls.setup({})
 		end,
 	},
 	{
